@@ -1,37 +1,64 @@
-# Real-Time Face Recognition System
+# Advanced AI Face Recognition & Interaction System 🚀
 
-An AI-powered real-time face recognition system built using Python and OpenCV.  
-This system detects faces from a live webcam, recognizes users, analyzes emotions, provides voice greetings, and logs attendance automatically.
+An intelligent real-time face recognition system built using Python and AI technologies.  
+This system not only identifies faces but also analyzes emotions, interacts through voice, and logs attendance automatically.
 
-## Features
-- Face detection using OpenCV
-- Face recognition using face_recognition library
-- Emotion detection using DeepFace
-- Text-to-Speech voice greeting
-- Speech-to-Text interaction
+---
+
+## 📁 Project Structure
+
+MyFaceProject/
+├── known_faces/            # Registered users photos  
+├── attendance_exports/     # CSV exports  
+├── run_project.py          # Main project file  
+├── check_voices.py         # Voice utility  
+├── attendance.db           # SQLite database (auto-generated)  
+├── requirements.txt        # Libraries list  
+├── .gitignore              # Ignored files  
+└── README.md               # Documentation  
+
+---
+
+## 🌟 Features
+
+- Real-time face detection & recognition
+- Emotion detection (Happy, Sad, Neutral, etc.)
+- Gender detection
+- Voice greeting using Text-to-Speech
 - Attendance logging with SQLite database
+- CSV export of attendance
+- Unknown person email alert with photo
+- Multithreaded smooth performance
+- Auto file access for authorized users
 
-## Tech Stack
-Python
-OpenCV
-DeepFace
-SQLite
-SpeechRecognition
-gTTS
+---
 
-## How to Run
-1. Install requirements
+## 🛠 Tech Stack
+
+- Python 3.11
+- OpenCV
+- face_recognition
+- DeepFace
+- SQLite3
+- Pandas
+- Pyttsx3
+
+---
+
+## 🚀 Installation & Run
+
+### Step 1 – Clone
+git clone https://github.com/Kunall1806/face-recognition-system
+
+### Step 2 – Install libraries
 pip install -r requirements.txt
 
-2. Run project
-python main.py
+### Step 3 – Run
+python run_project.py
 
-## Project Structure
-- main.py
-- known_faces/
-- database/
-- requirements.txt
+---
 
-## Author
-Kunal Kumar
-BCA Final Year Student
+## 👨‍💻 Author
+Kunal Kumar  
+BCA Final Year Student  
+GitHub: https://github.com/Kunall1806
